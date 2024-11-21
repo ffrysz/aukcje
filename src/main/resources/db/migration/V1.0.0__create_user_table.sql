@@ -5,4 +5,6 @@ CREATE TABLE IF NOT EXISTS app_user (
     email VARCHAR(255) not null,
     password VARCHAR(255) not null,
     PRIMARY KEY(id)
-    )
+    );
+
+create sequence app_user_SEQ start with 1 increment by 50;

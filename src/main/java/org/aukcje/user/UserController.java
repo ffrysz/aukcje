@@ -15,7 +15,7 @@ import java.util.List;
 public class UserController {
 
     @Inject
-    private UserService userService;
+    UserService userService;
 
     @GET
     public List<User> getAllUsers() {

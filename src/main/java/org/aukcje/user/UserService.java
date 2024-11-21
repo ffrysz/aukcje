@@ -1,8 +1,11 @@
 package org.aukcje.user;
 
 
+import jakarta.enterprise.context.ApplicationScoped;
+
 import java.util.List;
 
+@ApplicationScoped
 public class UserService {
 
     public void saveUser(User user) {
